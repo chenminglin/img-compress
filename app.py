@@ -29,5 +29,13 @@ def compress_image():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+@app.route('/')
+def home():
+    return 'Hello, World!'
+
+@app.route('/about')
+def about():
+    return 'About'
+
 if __name__ == '__main__':
     app.run(debug=True)
