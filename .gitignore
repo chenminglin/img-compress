@@ -1,8 +1,8 @@
 /.venv/
 /.idea
-/__pycache__
+/__pycache__/
 
 /.idea/img-compress.iml
 /.idea/misc.xml
 /.idea/workspace.xml
-/uploads/
+/uploads/*
